@@ -108,17 +108,14 @@ section h2 {
   display: inline-block;
   margin: 2rem 0;
   transition: var(--transition);
-  border-radius: 10px;
 }
 
 .btn:hover {
   box-shadow: 0 2rem 2rem var(--color-primary-light);
-  border-radius: 10px;
 }
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-black);
-  border-radius: 10px;
 }
 
 /* Navbar */
@@ -489,7 +486,6 @@ section.services .container .service {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  border-radius: 10px;
   cursor: default;
   transition: var(--transition);
 }
@@ -552,10 +548,6 @@ section.recent-work .projects .project {
 section.recent-work .projects .project .action {
   display: flex;
   gap: 2rem;
-}
-
-section.recent-work .projects .project .thumbnail img {
-  border-radius: 10px;
 }
 
 section.recent-work .projects .project .action a {
